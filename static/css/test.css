@@ -1,0 +1,84 @@
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+
+
+.foot
+{
+
+    background-color: #222222;
+    color:white;
+    margin-top:300px;
+    margin-bottom:0px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-left:0px;
+    text-align:center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+
+    bottom: 0;
+    width: 100%;
+
+
+}
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: #f8f9fa; 
+    background-image: url('https://wallpaperbat.com/img/219606-free-medical-wallpaper-background.jpg'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+color: #ffffff; 
+}
+
+#imagePreview {
+    width: 300px;
+    height: 300px;
+}
+
+#insertUser {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#insertUser input,
+#insertUser button {
+    margin-bottom: 10px;
+}
+
+#result,
+#resultInput,
+#fileNameInput {
+    margin-top: 20px;
+}
+
+#btn-dodaj-korisnika {
+    width: 150px; 
+}
+
+
+h4 {
+    text-align: right;
+    padding-right: 40px;
+}
+
+#btn-predict{
+    width: 150px;
+
+}

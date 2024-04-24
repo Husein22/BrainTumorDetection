@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f8f9fa; 
+    height:850px;
+    background-image: url('https://wallpaperbat.com/img/345884-medical-hd-wallpaper-and-background-image.jpg'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat; 
+}

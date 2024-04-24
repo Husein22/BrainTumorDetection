@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-color: #f8f9fa; 
+    background-image: url('https://wallpaperbat.com/img/437364-medicine-wallpaper-top-free-medicine-background.jpg'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+color: #ffffff; 
+}

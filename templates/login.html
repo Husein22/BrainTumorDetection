@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/newjs.js') }}" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+   
+</head>
+<body>
+<div>
+<div class="container mt-5">
+   
+    <form  method="POST" action="{{url_for('login')}}">
+        <div class="form-group">
+            <label for="ime" style="color: black;font-size: 20px; font-weight: bold;">User Name</label>
+            <input type="text" name="ime" id="ime" class="form-control" placeholder="ex. HuseinCisic">
+        </div>
+        <div class="form-group">
+            <label for="sifra" style="color: black;font-size: 20px; font-weight: bold;">Password</label>
+            <input type="password" name="sifra" id="sifra" class="form-control" placeholder="password">
+        </div>
+        
+        <button type="submit"  style="margin-top: 30px;"class="btn btn-primary">Log in</button>
+    </form>
+<br>
+{% if msg|length >=1 %}
+   <h4 class="p-3 mb-2 bg-danger text-white"  style="margin-top: 30px;">{{msg}}</h4> 
+   {%endif%}
+</div>
+
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
